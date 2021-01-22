@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="#index" class="active">Home</a>
+        <a href="About.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <div style="padding-left:16px">
+        <h2>Welcome to my profile</h2>
+        <p><i>I'm Zikhona, I'm a web developer at Absa Younglings</i></p>
+
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+</body>
+
+<img src="images/zee.jpeg" alt="ZEE" width="500" height="500">
+<h3><i>You can find me on the following platforms</i></h3>
+
+<!-- Add font awesome icons -->
+<a href="https://web.facebook.com/zikhona.ntuku.73/" target="_blank" class="fa fa-facebook"></a>
+<a href="https://twitter.com/Zaico_Zee" target="_blank" class="fa fa-twitter"></a>
+<a href="https://www.linkedin.com/in/zikhona-ntuku-78672a193/" target="_blank" class="fa fa-linkedin"></a>
+<a href="https://www.instagram.com/zee_buhlebendalo/" target="_blank" class="fa fa-instagram"></a>
+
+</html>
